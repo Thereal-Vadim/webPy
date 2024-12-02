@@ -1,0 +1,137 @@
+<html><head><base href="https://example.com">
+     <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    body {
+        font-family: Helvetica Neue, Arial, sans-serif;
+        background: #ffffff;
+        margin: 40px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        box-shadow: none;
+        border: 1px solid #e0e0e0;
+    }
+
+    th, td {
+        padding: 20px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: 300;
+    }
+
+    th {
+        background-color: #ffffff;
+        color: #333333;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.9em;
+    }
+
+    tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    .rating {
+        font-weight: 400;
+        font-size: 1em;
+        color: #333333;
+    }
+
+    .food-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    a {
+        color: #333333;
+        text-decoration: none;
+        border-bottom: 1px solid #333333;
+        padding-bottom: 2px;
+    }
+
+    a:hover {
+        border-bottom: 2px solid #333333;
+    }
+
+    .rating-10, .rating-9, .rating-8, .rating-7, .rating-6 {
+        color: #333333;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Название блюда</th>
+        <th>Оценка</th>
+        <th>Рецепт</th>
+        <th>Изображение</th>
+    </tr>
+    <tr>
+        <td>Борщ украинский</td>
+        <td class="rating rating-10">10/10</td>
+        <td><a href="https://gotovim-doma.ru/recipe/6-borshch-ukrainskiy">Смотреть рецепт</a></td>
+        <td>
+            <svg class="food-img" viewBox="0 0 100 100">
+                <rect x="10" y="10" width="80" height="80" fill="#f8f8f8"/>
+                <circle cx="50" cy="50" r="35" fill="#f4f4f4"/>
+                <path d="M30 50 Q50 30 70 50" stroke="#333333" fill="none" stroke-width="1"/>
+            </svg>
+        </td>
+    </tr>
+    <tr>
+        <td>Паста Карбонара</td>
+        <td class="rating rating-9">9/10</td>
+        <td><a href="https://eda.ru/recepty/pasta-picca/pasta-karbonara-33133">Смотреть рецепт</a></td>
+        <td>
+            <svg class="food-img" viewBox="0 0 100 100">
+                <rect x="10" y="10" width="80" height="80" fill="#f8f8f8"/>
+                <line x1="20" y1="50" x2="80" y2="50" stroke="#333333" stroke-width="1"/>
+                <circle cx="50" cy="50" r="10" fill="#f4f4f4"/>
+            </svg>
+        </td>
+    </tr>
+    <tr>
+        <td>Суши с лососем</td>
+        <td class="rating rating-8">8/10</td>
+        <td><a href="https://www.edimdoma.ru/retsepty/74183-sushi-s-lososem">Смотреть рецепт</a></td>
+        <td>
+            <svg class="food-img" viewBox="0 0 100 100">
+                <rect x="20" y="30" width="60" height="40" fill="#f8f8f8"/>
+                <line x1="20" y1="50" x2="80" y2="50" stroke="#333333" stroke-width="1"/>
+            </svg>
+        </td>
+    </tr>
+    <tr>
+        <td>Греческий салат</td>
+        <td class="rating rating-7">7/10</td>
+        <td><a href="https://www.gastronom.ru/recipe/4796/grecheskij-salat">Смотреть рецепт</a></td>
+        <td>
+            <svg class="food-img" viewBox="0 0 100 100">
+                <rect x="10" y="10" width="80" height="80" fill="#f8f8f8"/>
+                <circle cx="50" cy="50" r="25" fill="#f4f4f4"/>
+                <circle cx="50" cy="50" r="15" fill="#f8f8f8"/>
+            </svg>
+        </td>
+    </tr>
+    <tr>
+        <td>Пицца Маргарита</td>
+        <td class="rating rating-6">6/10</td>
+        <td><a href="https://www.gastronom.ru/recipe/31580/pizza-margarita">Смотреть рецепт</a></td>
+        <td>
+            <svg class="food-img" viewBox="0 0 100 100">
+                <rect x="10" y="10" width="80" height="80" fill="#f8f8f8"/>
+                <circle cx="50" cy="50" r="30" fill="#f4f4f4"/>
+                <line x1="35" y1="50" x2="65" y2="50" stroke="#333333" stroke-width="1"/>
+                <line x1="50" y1="35" x2="50" y2="65" stroke="#333333" stroke-width="1"/>
+            </svg>
+        </td>
+    </tr>
+</table>
+
+</body></html>
